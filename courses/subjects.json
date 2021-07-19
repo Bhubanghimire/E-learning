@@ -1,0 +1,40 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "nepali",
+    "slug": "nepali"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "admission",
+    "slug": "admission",
+    "overview": "this is overview of cource",
+    "created": "2021-07-17T15:03:31.159Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 2,
+    "title": "title",
+    "description": "description"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 2,
+    "title": "title 2",
+    "description": "description2"
+  }
+}
+]
